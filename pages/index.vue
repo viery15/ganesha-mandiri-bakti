@@ -196,6 +196,11 @@ export default {
           productImage: '/img/portofolio/portofolio-04.jpg',
           productName: 'Export Quality',
           to: 'portofolio-listing-exportquality'
+        },
+        {
+          productImage: '/img/manufacturing/oem1.jpg',
+          productName: 'OEM',
+          to: 'manufacturing-oem'
         }
       ],
       featuresItem: [
