@@ -102,7 +102,7 @@
           </h2>
         </div>
       </v-row>
-      <v-card-text class="fill-height hidden-sm-and-down">
+      <!-- <v-card-text class="fill-height">
         <v-row justify="center">
           <v-col v-for="(item, i) in productData" :key="i" cols="12" md="3">
             <v-card
@@ -126,12 +126,8 @@
             </v-card>
           </v-col>
         </v-row>
-      </v-card-text>
-      <v-slide-group
-        class="pa-4 mx-auto hidden-sm-and-up"
-        center-active
-        show-arrows
-      >
+      </v-card-text> -->
+      <v-slide-group class="pa-4 mx-auto" center-active show-arrows>
         <v-slide-item
           v-for="(item, i) in productData"
           :key="i"
